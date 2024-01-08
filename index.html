@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aditya Widhi Saputro </title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&family=Roboto:wght@400;500&family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="apple-touch-icon.png" type="image/x-icon" />
+
+    <style>
+      .video-container {
+        display: flex;
+        justify-content: right; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        height: 80vh; /* Adjust the height as needed */
+      }
+
+      .video {
+        max-width: 30%;
+        margin-right: 80px;
+        margin-top: 20px;
+      }
+
+      .image-container {
+        display: flex;
+        justify-content: left; /* Center horizontally */
+        align-items: center; /* Center vertically */
+      }
+
+      .image {
+        max-width: 30%;
+        max-height: 80%;
+        margin-left: 100px;
+        margin-top: -744px;
+      }
+
+      .image-container2 {
+        display: flex;
+        justify-content: left; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        position: relative;
+        z-index: 10001;
+      }
+
+      .image2 {
+        max-width: 30%;
+        max-height: 80%;
+        position: fixed;
+        left: 1750px;
+        bottom: 843px;
+        z-index: 10000;
+      }
+
+      .image3 {
+        max-width: 30%;
+        max-height: 80%;
+        margin-left: 1300px;
+        margin-top: -724px;
+      }
+
+      .image-container3 {
+        display: flex;
+        justify-content: left; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        position: relative;
+        z-index: 10001;
+      }
+
+      .image4 {
+        max-width: 30%;
+        max-height: 80%;
+        margin-left: 690px;
+        margin-top: -124px;
+      }
+
+      .image-container4 {
+        display: flex;
+        justify-content: left; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        position: relative;
+        z-index: 10001;
+      }
+
+      .audio-container {
+        display: flex;
+        justify-content: center; /* Align to the left */
+        align-items: center; /* Center vertically */
+      }
+
+      .audio {
+        max-width: 30%;
+        max-height: 80%;
+        margin-top: -720px;
+      }
+
+      .text-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Align to the left */
+      }
+
+      .main-text {
+        max-width: 70%;
+        max-height: 110%;
+        margin-top: -112px;
+        margin-left: 650px;
+      }
+
+      .secondary-text {
+        margin-left: 785px; /* Adjust the left margin as needed */
+        text-align: center;
+      }
+
+      .text-container2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Align to the left */
+      }
+
+      .main-text2 {
+        max-width: 70%;
+        max-height: 110%;
+        margin-top: -138px;
+        margin-left: 170px;
+        font-size: 18px;
+      }
+
+      .secondary-text2 {
+        margin-left: 150px; /* Adjust the left margin as needed */
+        text-align: center;
+      }
+
+      .text-container3 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Align to the left */
+      }
+
+      .main-text3 {
+        max-width: 70%;
+        max-height: 110%;
+        margin-top: -138px;
+        margin-left: 1570px;
+        font-size: 24px;
+      }
+
+      .secondary-text3 {
+        margin-left: 1600px; /* Adjust the left margin as needed */
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!--Navbar start-->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Pemograman<span> Web</span></a>
+
+      <div class="navbar-nav">
+        <h2>
+          <a href="#">Aditya Widhi <span>Saputro </span></a>
+          <a href="#About">Sistem <span>Informasi</span></a>
+          <a href="#Menu">01SIFK<span>004</span></a>
+          <a href="#Contact">231011<span>701094</span></a>
+        </h2>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!--Navbar end-->
+
+    <div class="video-container">
+      <video class="video" controls>
+        <source
+          src="Media/Mars Barisan Pekerja - With Lyrics.mp4"
+          type="video/mp4"
+        />
+      </video>
+    </div>
+
+    <div class="image-container">
+      <img
+        class="image"
+        src="Media/chicks1.jpg"
+        width="260px"
+        height="230px"
+      />
+    </div>
+
+    <div class="image-container2">
+      <img
+        class="image2"
+        src="Media/logo-unpam-300x291.png"
+        width="70px"
+        height="67px"
+      />
+    </div>
+
+    <div class="audio-container">
+      <audio class="audio" controls>
+        <source
+          src="Media/Y2meta.app - DJ TABRAK-TABRAK MASUK (Oke Gas 2) - Richard Jersey (Official Music Video) (128 kbps).mp3"
+          type="audio/mp3"
+        />
+      </audio>
+    </div>
+
+    <div class="text-container">
+      <div class="main-text">
+        <h3>Kesan pesan pertama bergabung dengan prodi sistem informasi</h3>
+      </div>
+      <div class="secondary-text">
+        <br />
+        <p>Ingin mempelajari tentang pembuatan web</p>
+      </div>
+    </div>
+
+    <div class="text-container2">
+      <div class="main-text2">
+        <h4>Asal Sekolah</h4>
+      </div>
+      <div class="secondary-text2">
+        <br />
+        <p>SMAN 13 TANGERANG</p>
+      </div>
+    </div>
+
+    <div class="text-container3">
+      <div class="main-text3">
+        <h5>Jurusan</h5>
+      </div>
+      <div class="secondary-text3">
+        <br />
+        <p>IPS</p>
+      </div>
+    </div>
+
+    <div class="background-container"></div>
+
+    <style>
+      table {
+          border-collapse: collapse;
+          width: 100%;
+      }
+
+      td {
+          border: 1px solid #ddd;
+          padding: 8px;
+          position: relative;
+      }
+
+      img {
+          max-width: 100%;
+          height: auto;
+          display: block;
+          margin: 0 auto;
+      }
+
+      .zigzag {
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+      }
+  </style>
+</head>
+<body>
+
+  <table>
+      <tr>
+          <td><img src="Media/chicks1.jpg" width="250px" height="250px"  alt="Image 1"></td>
+          <td> </td>
+          <td class="zigzag"><img src="Media/chicks1.jpg" width="250px" height="250px" alt="Image 3"></td>
+      </tr>
+      <tr>
+          <td class="zigzag"> </td>
+          <td><img src="Media/chicks1.jpg" width="250px" height="250px" alt="Image 5"></td>
+          <td> </td>
+      </tr>
+      <tr>
+          <td><img src="Media/chicks1.jpg"  width="250px" height="250px"  alt="Image 7"></td>
+          <td class="zigzag"> </td>
+          <td><img src="Media/chicks1.jpg" width="250px" height="250px" alt="Image 9"></td>
+      </tr> 
+  </table>
+  <br><br>
+
+
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <title>Sample Form</title>
+    </head>
+    <body>
+      <form action="submit.php" method="post">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" required /><br /><br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label>Jenis Kelamin:</label>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Pria</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Wanita</label><br /><br />
+
+        Peminatan     : <select name="peminatan">
+          <option value="Islam">Web Developer</option>
+          <option value="Katolik">Data Analyst</option>
+          <option value="Kristen">Data Engineer</option>
+          <option value="Hindu">Cyber Science</option>
+          <option value="Budha">QA</option>
+          </select> <br><br>
+
+          <div class="form-row">
+            <label for="alamat">Keterangan        :</label>
+            <textarea name="ket" rows="3" cols="30"></textarea>
+            </div> <br><br>
+          
+            Apakah anda bersedia di hubungi via email? <input type="radio" name="jkel" value="Laki-laki">Ya <input type="radio" name="jkel" value="Perempuan">Tidak <br><br>
+              
+            <input type="button" value="Kirim" /> <input type="reset" value="Ulang" /> <br><br><br><br>
+            </form>
+                </body>
+              </html>    
+
+      <!DOCTYPE html>
+      <html>
+        <head>
+          <title>Sample Table</title>
+        </head>
+        <body>
+          <table>
+            <tr>
+            </tr>
+            <tr>
+                <td style="width: 100px;">A</td>
+                <td style="width: 150px;">B</td>
+                <td style="width: 80px;">C</td>
+                <td style="width: 100px;">D</td>
+                <td style="width: 100px;">E</td>
+            </tr>
+            <tr>
+                <td style="width: 100px;">F</td>
+                <td style="width: 150px;">G</td>
+                <td style="width: 80px;">H</td>
+            </tr>
+            <tr>
+                <td style="width: 100px;">I</td>
+                <td style="width: 150px;">J</td>
+                <td style="width: 80px;">K</td>
+            </tr>
+          </table>
+        </body>
+
+  <!-- Footer Start-->
+
+  <footer>
+    <div class="social">
+      <a href="#"
+        ><i data-feather="mail"></i><span>widhisaputro12@gmail.com</span></a
+      >
+      <br />
+      <br />
+      <a href="#"><i data-feather="phone"></i><span>08989726657</span></a>
+      <br />
+      <br />
+      <a href="#"
+        ><i data-feather="home"></i
+        ><span
+          >jl. Lembang baru VI no.2b</span
+        ></a
+      >
+    </div>
+  </footer>
+
+  <!-- Footer End-->
+
+  <!-- Feather Icons -->
+  <script>
+    feather.replace();
+  </script>
+</body>
+</html>
